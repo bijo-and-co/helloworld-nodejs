@@ -19,7 +19,7 @@ pipeline {
           sh 'node --version'
         }
       }
-    }
+     }
     stage('Build and Push Image') {
       when {
         beforeAgent true
